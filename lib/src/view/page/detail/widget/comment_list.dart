@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_mvvm/src/view/src/view_model/view_model.dart';
+import 'package:flutter_riverpod_mvvm/src/view/view_model/view_model.dart';
 
 class CommentList extends ConsumerWidget {
   const CommentList({super.key, required this.postId});

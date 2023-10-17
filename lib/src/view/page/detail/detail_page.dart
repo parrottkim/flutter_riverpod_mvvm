@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_riverpod_mvvm/src/view/src/page/detail/widget/comment_list.dart';
-import 'package:flutter_riverpod_mvvm/src/view/src/view_model/view_model.dart';
+import 'package:flutter_riverpod_mvvm/src/view/page/detail/widget/comment_list.dart';
+import 'package:flutter_riverpod_mvvm/src/view/view_model/view_model.dart';
 
 class DetailPage extends ConsumerWidget {
   const DetailPage({super.key, required this.id});
